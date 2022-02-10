@@ -15,6 +15,7 @@ public class LogController {
 		LOG.debug("This is a DEBUG log");
 		LOG.info("This is an INFO log");
 		LOG.error("This is an ERROR log");
+		System.out.println("Adding new line");
 		return "Added some log output to console...";
 	}
 
